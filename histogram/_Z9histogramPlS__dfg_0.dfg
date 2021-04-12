@@ -1,0 +1,11 @@
+#pragma group frequency 8191
+# From Inst: [0x560e5ed84990] IndMemPort (0)  %14 = load i64, i64* %13, align 8, !tbaa !4
+#pragma cmd=1
+#pragma repeat=0
+Input64: sub0_v1
+# [0x560e5ed7eb30] ComputeBody (0)  %15 = add nsw i64 %14, 1
+sub0_v2 = Add64(sub0_v1, 1)
+# From Inst: [0x560e5ed7ebe0] PortMem (0)  store i64 %15, i64* %13, align 8, !tbaa !4
+#pragma cmd=1
+#pragma repeat=0
+Output64: sub0_v2

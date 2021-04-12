@@ -1,0 +1,52 @@
+[{
+  "adgnode": 62,
+  "adgslot": 0,
+  "dfgnode": 0,
+  "op": "assign_node"
+}, {
+  "adgnode": 36,
+  "adgslot": 0,
+  "dfgnode": 1,
+  "op": "assign_node"
+}, {
+  "adgnode": 83,
+  "adgslot": 0,
+  "dfgnode": 2,
+  "op": "assign_node"
+}, {
+  "adglink": 311,
+  "adgslot": 0,
+  "dfgedge": 0,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 0,
+  "op": "assign_delay"
+}, {
+  "adglink": 11,
+  "adgslot": 0,
+  "dfgedge": 0,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 0,
+  "op": "assign_delay"
+}, {
+  "adglink": 253,
+  "adgslot": 0,
+  "dfgedge": 1,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 1,
+  "op": "assign_delay"
+}, {
+  "adglink": 13,
+  "adgslot": 0,
+  "dfgedge": 1,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 1,
+  "op": "assign_delay"
+}]

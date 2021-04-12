@@ -1,0 +1,90 @@
+rm -f *.bc *.ll *.o *.out *.s *.dfg.h *.dfg
+rm -rf m5out sched viz verif stats
+clang++ accumulate.cc -o accumulate.bc -O2 -fno-inline -fno-vectorize -fno-slp-vectorize -fno-unroll-loops -stream-specialize -emit-llvm -c -std=c++14   -fno-exceptions -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -L/root/ajis01/framework/unknown-elf-framework/dsa-framework/ss-tools/sysroot/opencv/release/lib `pkg-config --cflags --libs opencv` -I/root/ajis01/framework/unknown-elf-framework/dsa-framework/ss-tools/include -I/root/ajis01/framework/unknown-elf-framework/dsa-framework/ss-tools/riscv64-unknown-linux-gnu/include/c++/10.1.0/ -I/root/ajis01/framework/unknown-elf-framework/dsa-framework/ss-tools/sysroot/usr/include -I/root/ajis01/framework/unknown-elf-framework/dsa-framework/dsa-apps/common/include -I/root/ajis01/framework/unknown-elf-framework/dsa-framework/ss-tools/riscv64-unknown-linux-gnu/include/c++/10.1.0/riscv64-unknown-linux-gnu/rv64imac/lp64/ -I/root/ajis01/framework/unknown-elf-framework/dsa-framework/ss-tools/riscv64-unknown-linux-gnu/include/c++/10.1.0/riscv64-unknown-linux-gnu/ -I/root/ajis01/framework/dsa-examples/compile/vvision-kernels/ --sysroot=/root/ajis01/framework/unknown-elf-framework/dsa-framework/ss-tools/sysroot 
+SBCONFIG=/root/ajis01/framework/unknown-elf-framework/dsa-framework/spatial.json                                \
+opt -load /root/ajis01/framework/unknown-elf-framework/dsa-framework/dsa-llvm-project/build/lib/DSAPass.so   \
+	   -stream-specialize accumulate.bc -o dsa-accumulate.bc
+opt -O3 < dsa-accumulate.bc > O3-dsa-accumulate.bc
+llc -mattr=+m,+f,+a,+c O3-dsa-accumulate.bc
+riscv64-unknown-linux-gnu-g++ O3-dsa-accumulate.s -o O3-dsa-accumulate.out -march=rv64imac -mabi=lp64 -static -static-libgcc -static-libstdc++ -lc -lm 
+rm O3-dsa-accumulate.s dsa-accumulate.bc accumulate.bc O3-dsa-accumulate.bc
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 20.0.0.2
+gem5 compiled Mar 15 2021 00:44:26
+gem5 started Mar 15 2021 04:13:33
+gem5 executing on 5532e08683de, pid 67470
+command line: gem5.opt /root/ajis01/framework/unknown-elf-framework/dsa-framework/dsa-gem5/configs/example/se.py --cpu-type=MinorCPU --l1d_size=256kB --l1d_assoc=16 --l1i_size=16kB --l2_size=128kB --caches --ruby --num-cpus=8 --num-dirs=8 --network=simple --topology=Mesh_XY --mesh-rows=2 --cmd=./O3-dsa-accumulate.out
+
+Global frequency set at 1000000000000 ticks per second
+Loading SS Config (env SBCONFIG): "/root/ajis01/framework/unknown-elf-framework/dsa-framework/spatial.json"
+FU_FIFO_LEN:15
+IND_ROB_SIZE:8
+Loading SS Config (env SBCONFIG): "/root/ajis01/framework/unknown-elf-framework/dsa-framework/spatial.json"
+FU_FIFO_LEN:15
+IND_ROB_SIZE:8
+Loading SS Config (env SBCONFIG): "/root/ajis01/framework/unknown-elf-framework/dsa-framework/spatial.json"
+FU_FIFO_LEN:15
+IND_ROB_SIZE:8
+Loading SS Config (env SBCONFIG): "/root/ajis01/framework/unknown-elf-framework/dsa-framework/spatial.json"
+FU_FIFO_LEN:15
+IND_ROB_SIZE:8
+Loading SS Config (env SBCONFIG): "/root/ajis01/framework/unknown-elf-framework/dsa-framework/spatial.json"
+FU_FIFO_LEN:15
+IND_ROB_SIZE:8
+Loading SS Config (env SBCONFIG): "/root/ajis01/framework/unknown-elf-framework/dsa-framework/spatial.json"
+FU_FIFO_LEN:15
+IND_ROB_SIZE:8
+Loading SS Config (env SBCONFIG): "/root/ajis01/framework/unknown-elf-framework/dsa-framework/spatial.json"
+FU_FIFO_LEN:15
+IND_ROB_SIZE:8
+Loading SS Config (env SBCONFIG): "/root/ajis01/framework/unknown-elf-framework/dsa-framework/spatial.json"
+FU_FIFO_LEN:15
+IND_ROB_SIZE:8
+**** REAL SIMULATION ****
+Exiting ROI ------------(104379000 to 105425000)
+Cycles according to start and stop:1046000
+
+*** ROI STATISTICS for CORE ID: 0 ***
+Simulator Time: 0.1992 sec
+Cycles: 2092
+Number of coalesced SPU requests: 0
+Control Core Insts Issued: 62
+Control Core Discarded Insts Issued: 26
+Control Core Discarded Inst Stalls: 0.4194
+Control Core Config Stalls: 0.004302
+Control Core Wait Stalls:   0.9924 (ALL)  
+
+ACCEL 0 STATS ***
+Commands Issued: 4
+CGRA Instances: 2048 -- Activity Ratio: 0.979, DFGs / Cycle: 0.979
+For backcgra, Average thoughput of all ports (overall): 0.979, CGRA outputs/cgra busy cycles: 1
+CGRA Insts / Computation Instance: 8
+CGRA Insts / Cycle: 7.832 (overall activity factor)
+Mapped DFG utilization: 0.979
+Data availability ratio: 0
+input port imbalance (%age dgra nodes could not fire): 0
+Percentage bank conflicts: -nan
+L1 cache hit rate: 0
+Avg wait cycles on a byte read: 7.812
+Percentage cycles spent due to conflict in atomic scr: -nan
+Cycle Breakdown: CONFIG:0.0057 ISSUED:0.0000 ISSUED_MULTI:0.9790 TEMPORAL_ONLY:0.0000 CONST_FILL:0.0000 SCR_FILL:0.0000 DMA_FILL:0.0067 REC_WAIT:0.0000 CORE_WAIT:0.0024 SCR_BAR_WAIT:0.0000 DMA_WRITE:0.0000 CMD_QUEUE:0.0010 CGRA_BACK:0.0000 DRAIN:0.0057 NOT_IN_USE:0.0000 
+Bandwidth Table: (B/c=Bytes/cycle, B/r=Bytes/request) -- Breakdown (sources/destinatinos): 
+SP_READ:	(0 B/c, 0 B/r)  -- 
+SP_WRITE:	(0 B/c, 0 B/r)  -- 
+DMA_LOAD:	0.987(63.1B/c, 64B/r)  -- port:0.987(63.1B/c, 64B/r) 
+DMA_STORE:	0.00765(0.489B/c, 64B/r)  -- port:0.00765(0.489B/c, 64B/r) 
+REC_BUS_READ:	1.94(124B/c, 64B/r)  -- port:1.94(124B/c, 64B/r) 
+NETWORK:	(0 B/c, 0 B/r)  -- 
+SPU sent: 0 SPU receive: 0
+
+Cores used: 1bitmask: 1
+Total atomic updates: 0
+Total Memory Activity: 0.987
+
+ -- Parallelization Estimates --
+Multi-Pipeline Cycles (cores:cycles): 1:2092 2:2064 3:2064 4:2064 5:2064 6:2064 7:2064 8:2064 9:2064 10:2064 11:2064 12:2064 13:2064 14:2064 15:2064 16:2064 17:2064 18:2064 
+Multi-Pipeline Activity: (cores:cycles)1:0.979 2:0.496 3:0.331 4:0.248 5:0.198 6:0.165 7:0.142 8:0.124 9:0.11 10:0.0992 11:0.0902 12:0.0827 13:0.0763 14:0.0709 15:0.0661 16:0.062 17:0.0584 18:0.0551 
+
+Exiting @ tick 110986500 because exiting with last active thread context

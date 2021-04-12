@@ -1,0 +1,1563 @@
+[{
+  "adgnode": 61,
+  "adgslot": 0,
+  "dfgnode": 0,
+  "op": "assign_node"
+}, {
+  "adgnode": 62,
+  "adgslot": 0,
+  "dfgnode": 1,
+  "op": "assign_node"
+}, {
+  "adgnode": 56,
+  "adgslot": 0,
+  "dfgnode": 2,
+  "op": "assign_node"
+}, {
+  "adgnode": 37,
+  "adgslot": 0,
+  "dfgnode": 3,
+  "op": "assign_node"
+}, {
+  "adgnode": 51,
+  "adgslot": 0,
+  "dfgnode": 4,
+  "op": "assign_node"
+}, {
+  "adgnode": 40,
+  "adgslot": 0,
+  "dfgnode": 5,
+  "op": "assign_node"
+}, {
+  "adgnode": 38,
+  "adgslot": 0,
+  "dfgnode": 6,
+  "op": "assign_node"
+}, {
+  "adgnode": 41,
+  "adgslot": 0,
+  "dfgnode": 7,
+  "op": "assign_node"
+}, {
+  "adgnode": 46,
+  "adgslot": 0,
+  "dfgnode": 8,
+  "op": "assign_node"
+}, {
+  "adgnode": 39,
+  "adgslot": 0,
+  "dfgnode": 9,
+  "op": "assign_node"
+}, {
+  "adgnode": 36,
+  "adgslot": 0,
+  "dfgnode": 10,
+  "op": "assign_node"
+}, {
+  "adgnode": 44,
+  "adgslot": 0,
+  "dfgnode": 11,
+  "op": "assign_node"
+}, {
+  "adgnode": 47,
+  "adgslot": 0,
+  "dfgnode": 12,
+  "op": "assign_node"
+}, {
+  "adgnode": 50,
+  "adgslot": 0,
+  "dfgnode": 13,
+  "op": "assign_node"
+}, {
+  "adgnode": 43,
+  "adgslot": 0,
+  "dfgnode": 14,
+  "op": "assign_node"
+}, {
+  "adgnode": 42,
+  "adgslot": 0,
+  "dfgnode": 15,
+  "op": "assign_node"
+}, {
+  "adgnode": 45,
+  "adgslot": 0,
+  "dfgnode": 16,
+  "op": "assign_node"
+}, {
+  "adgnode": 49,
+  "adgslot": 0,
+  "dfgnode": 17,
+  "op": "assign_node"
+}, {
+  "adgnode": 95,
+  "adgslot": 0,
+  "dfgnode": 18,
+  "op": "assign_node"
+}, {
+  "adglink": 304,
+  "adgslot": 0,
+  "dfgedge": 0,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 0,
+  "op": "assign_delay"
+}, {
+  "adglink": 9,
+  "adgslot": 0,
+  "dfgedge": 0,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 0,
+  "op": "assign_delay"
+}, {
+  "adglink": 60,
+  "adgslot": 0,
+  "dfgedge": 0,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 0,
+  "op": "assign_delay"
+}, {
+  "adglink": 105,
+  "adgslot": 0,
+  "dfgedge": 0,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 0,
+  "op": "assign_delay"
+}, {
+  "adglink": 149,
+  "adgslot": 0,
+  "dfgedge": 0,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 0,
+  "op": "assign_delay"
+}, {
+  "adglink": 196,
+  "adgslot": 0,
+  "dfgedge": 0,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 0,
+  "op": "assign_delay"
+}, {
+  "adglink": 304,
+  "adgslot": 0,
+  "dfgedge": 1,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 1,
+  "op": "assign_delay"
+}, {
+  "adglink": 9,
+  "adgslot": 0,
+  "dfgedge": 1,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 1,
+  "op": "assign_delay"
+}, {
+  "adglink": 60,
+  "adgslot": 0,
+  "dfgedge": 1,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 1,
+  "op": "assign_delay"
+}, {
+  "adglink": 105,
+  "adgslot": 0,
+  "dfgedge": 1,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 1,
+  "op": "assign_delay"
+}, {
+  "adglink": 149,
+  "adgslot": 0,
+  "dfgedge": 1,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 1,
+  "op": "assign_delay"
+}, {
+  "adglink": 196,
+  "adgslot": 0,
+  "dfgedge": 1,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 1,
+  "op": "assign_delay"
+}, {
+  "adglink": 308,
+  "adgslot": 0,
+  "dfgedge": 2,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 2,
+  "op": "assign_delay"
+}, {
+  "adglink": 90,
+  "adgslot": 0,
+  "dfgedge": 2,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 2,
+  "op": "assign_delay"
+}, {
+  "adglink": 48,
+  "adgslot": 0,
+  "dfgedge": 2,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 2,
+  "op": "assign_delay"
+}, {
+  "adglink": 40,
+  "adgslot": 0,
+  "dfgedge": 2,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 2,
+  "op": "assign_delay"
+}, {
+  "adglink": 28,
+  "adgslot": 0,
+  "dfgedge": 2,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 2,
+  "op": "assign_delay"
+}, {
+  "adglink": 21,
+  "adgslot": 0,
+  "dfgedge": 2,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 2,
+  "op": "assign_delay"
+}, {
+  "adglink": 308,
+  "adgslot": 0,
+  "dfgedge": 3,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 3,
+  "op": "assign_delay"
+}, {
+  "adglink": 90,
+  "adgslot": 0,
+  "dfgedge": 3,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 3,
+  "op": "assign_delay"
+}, {
+  "adglink": 48,
+  "adgslot": 0,
+  "dfgedge": 3,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 3,
+  "op": "assign_delay"
+}, {
+  "adglink": 40,
+  "adgslot": 0,
+  "dfgedge": 3,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 3,
+  "op": "assign_delay"
+}, {
+  "adglink": 28,
+  "adgslot": 0,
+  "dfgedge": 3,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 3,
+  "op": "assign_delay"
+}, {
+  "adglink": 21,
+  "adgslot": 0,
+  "dfgedge": 3,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 3,
+  "op": "assign_delay"
+}, {
+  "adglink": 303,
+  "adgslot": 0,
+  "dfgedge": 4,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 4,
+  "op": "assign_delay"
+}, {
+  "adglink": 0,
+  "adgslot": 0,
+  "dfgedge": 4,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 4,
+  "op": "assign_delay"
+}, {
+  "adglink": 54,
+  "adgslot": 0,
+  "dfgedge": 4,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 4,
+  "op": "assign_delay"
+}, {
+  "adglink": 99,
+  "adgslot": 0,
+  "dfgedge": 4,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 4,
+  "op": "assign_delay"
+}, {
+  "adglink": 146,
+  "adgslot": 0,
+  "dfgedge": 4,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 4,
+  "op": "assign_delay"
+}, {
+  "adglink": 303,
+  "adgslot": 0,
+  "dfgedge": 5,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 5,
+  "op": "assign_delay"
+}, {
+  "adglink": 0,
+  "adgslot": 0,
+  "dfgedge": 5,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 5,
+  "op": "assign_delay"
+}, {
+  "adglink": 54,
+  "adgslot": 0,
+  "dfgedge": 5,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 5,
+  "op": "assign_delay"
+}, {
+  "adglink": 99,
+  "adgslot": 0,
+  "dfgedge": 5,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 5,
+  "op": "assign_delay"
+}, {
+  "adglink": 146,
+  "adgslot": 0,
+  "dfgedge": 5,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 5,
+  "op": "assign_delay"
+}, {
+  "adglink": 307,
+  "adgslot": 0,
+  "dfgedge": 6,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 6,
+  "op": "assign_delay"
+}, {
+  "adglink": 50,
+  "adgslot": 0,
+  "dfgedge": 6,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 6,
+  "op": "assign_delay"
+}, {
+  "adglink": 307,
+  "adgslot": 0,
+  "dfgedge": 7,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 7,
+  "op": "assign_delay"
+}, {
+  "adglink": 50,
+  "adgslot": 0,
+  "dfgedge": 7,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 7,
+  "op": "assign_delay"
+}, {
+  "adglink": 305,
+  "adgslot": 0,
+  "dfgedge": 8,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 8,
+  "op": "assign_delay"
+}, {
+  "adglink": 22,
+  "adgslot": 0,
+  "dfgedge": 8,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 8,
+  "op": "assign_delay"
+}, {
+  "adglink": 305,
+  "adgslot": 0,
+  "dfgedge": 9,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 9,
+  "op": "assign_delay"
+}, {
+  "adglink": 22,
+  "adgslot": 0,
+  "dfgedge": 9,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 9,
+  "op": "assign_delay"
+}, {
+  "adglink": 310,
+  "adgslot": 0,
+  "dfgedge": 10,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 10,
+  "op": "assign_delay"
+}, {
+  "adglink": 180,
+  "adgslot": 0,
+  "dfgedge": 10,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 10,
+  "op": "assign_delay"
+}, {
+  "adglink": 172,
+  "adgslot": 0,
+  "dfgedge": 10,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 10,
+  "op": "assign_delay"
+}, {
+  "adglink": 164,
+  "adgslot": 0,
+  "dfgedge": 10,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 10,
+  "op": "assign_delay"
+}, {
+  "adglink": 156,
+  "adgslot": 0,
+  "dfgedge": 10,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 10,
+  "op": "assign_delay"
+}, {
+  "adglink": 147,
+  "adgslot": 0,
+  "dfgedge": 10,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 10,
+  "op": "assign_delay"
+}, {
+  "adglink": 107,
+  "adgslot": 0,
+  "dfgedge": 10,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 10,
+  "op": "assign_delay"
+}, {
+  "adglink": 310,
+  "adgslot": 0,
+  "dfgedge": 11,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 11,
+  "op": "assign_delay"
+}, {
+  "adglink": 180,
+  "adgslot": 0,
+  "dfgedge": 11,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 11,
+  "op": "assign_delay"
+}, {
+  "adglink": 172,
+  "adgslot": 0,
+  "dfgedge": 11,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 11,
+  "op": "assign_delay"
+}, {
+  "adglink": 164,
+  "adgslot": 0,
+  "dfgedge": 11,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 11,
+  "op": "assign_delay"
+}, {
+  "adglink": 156,
+  "adgslot": 0,
+  "dfgedge": 11,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 11,
+  "op": "assign_delay"
+}, {
+  "adglink": 147,
+  "adgslot": 0,
+  "dfgedge": 11,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 11,
+  "op": "assign_delay"
+}, {
+  "adglink": 107,
+  "adgslot": 0,
+  "dfgedge": 11,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 11,
+  "op": "assign_delay"
+}, {
+  "adglink": 309,
+  "adgslot": 0,
+  "dfgedge": 12,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 12,
+  "op": "assign_delay"
+}, {
+  "adglink": 137,
+  "adgslot": 0,
+  "dfgedge": 12,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 12,
+  "op": "assign_delay"
+}, {
+  "adglink": 181,
+  "adgslot": 0,
+  "dfgedge": 12,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 12,
+  "op": "assign_delay"
+}, {
+  "adglink": 223,
+  "adgslot": 0,
+  "dfgedge": 12,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 12,
+  "op": "assign_delay"
+}, {
+  "adglink": 215,
+  "adgslot": 0,
+  "dfgedge": 12,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 12,
+  "op": "assign_delay"
+}, {
+  "adglink": 207,
+  "adgslot": 0,
+  "dfgedge": 12,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 12,
+  "op": "assign_delay"
+}, {
+  "adglink": 199,
+  "adgslot": 0,
+  "dfgedge": 12,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 12,
+  "op": "assign_delay"
+}, {
+  "adglink": 190,
+  "adgslot": 0,
+  "dfgedge": 12,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 12,
+  "op": "assign_delay"
+}, {
+  "adglink": 151,
+  "adgslot": 0,
+  "dfgedge": 12,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 12,
+  "op": "assign_delay"
+}, {
+  "adglink": 309,
+  "adgslot": 0,
+  "dfgedge": 13,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 13,
+  "op": "assign_delay"
+}, {
+  "adglink": 137,
+  "adgslot": 0,
+  "dfgedge": 13,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 13,
+  "op": "assign_delay"
+}, {
+  "adglink": 181,
+  "adgslot": 0,
+  "dfgedge": 13,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 13,
+  "op": "assign_delay"
+}, {
+  "adglink": 223,
+  "adgslot": 0,
+  "dfgedge": 13,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 13,
+  "op": "assign_delay"
+}, {
+  "adglink": 215,
+  "adgslot": 0,
+  "dfgedge": 13,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 13,
+  "op": "assign_delay"
+}, {
+  "adglink": 207,
+  "adgslot": 0,
+  "dfgedge": 13,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 13,
+  "op": "assign_delay"
+}, {
+  "adglink": 199,
+  "adgslot": 0,
+  "dfgedge": 13,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 13,
+  "op": "assign_delay"
+}, {
+  "adglink": 190,
+  "adgslot": 0,
+  "dfgedge": 13,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 13,
+  "op": "assign_delay"
+}, {
+  "adglink": 151,
+  "adgslot": 0,
+  "dfgedge": 13,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 13,
+  "op": "assign_delay"
+}, {
+  "adglink": 306,
+  "adgslot": 0,
+  "dfgedge": 14,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 14,
+  "op": "assign_delay"
+}, {
+  "adglink": 32,
+  "adgslot": 0,
+  "dfgedge": 14,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 14,
+  "op": "assign_delay"
+}, {
+  "adglink": 306,
+  "adgslot": 0,
+  "dfgedge": 15,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 15,
+  "op": "assign_delay"
+}, {
+  "adglink": 32,
+  "adgslot": 0,
+  "dfgedge": 15,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 15,
+  "op": "assign_delay"
+}, {
+  "adglink": 311,
+  "adgslot": 0,
+  "dfgedge": 16,
+  "op": "assign_link"
+}, {
+  "delay": 11,
+  "dfgedge": 16,
+  "op": "assign_delay"
+}, {
+  "adglink": 11,
+  "adgslot": 0,
+  "dfgedge": 16,
+  "op": "assign_link"
+}, {
+  "delay": 11,
+  "dfgedge": 16,
+  "op": "assign_delay"
+}, {
+  "adglink": 293,
+  "adgslot": 0,
+  "dfgedge": 17,
+  "op": "assign_link"
+}, {
+  "delay": 1,
+  "dfgedge": 17,
+  "op": "assign_delay"
+}, {
+  "adglink": 191,
+  "adgslot": 0,
+  "dfgedge": 17,
+  "op": "assign_link"
+}, {
+  "delay": 1,
+  "dfgedge": 17,
+  "op": "assign_delay"
+}, {
+  "adglink": 185,
+  "adgslot": 0,
+  "dfgedge": 17,
+  "op": "assign_link"
+}, {
+  "delay": 1,
+  "dfgedge": 17,
+  "op": "assign_delay"
+}, {
+  "adglink": 142,
+  "adgslot": 0,
+  "dfgedge": 17,
+  "op": "assign_link"
+}, {
+  "delay": 1,
+  "dfgedge": 17,
+  "op": "assign_delay"
+}, {
+  "adglink": 98,
+  "adgslot": 0,
+  "dfgedge": 17,
+  "op": "assign_link"
+}, {
+  "delay": 1,
+  "dfgedge": 17,
+  "op": "assign_delay"
+}, {
+  "adglink": 56,
+  "adgslot": 0,
+  "dfgedge": 17,
+  "op": "assign_link"
+}, {
+  "delay": 1,
+  "dfgedge": 17,
+  "op": "assign_delay"
+}, {
+  "adglink": 315,
+  "adgslot": 0,
+  "dfgedge": 18,
+  "op": "assign_link"
+}, {
+  "delay": 10,
+  "dfgedge": 18,
+  "op": "assign_delay"
+}, {
+  "adglink": 91,
+  "adgslot": 0,
+  "dfgedge": 18,
+  "op": "assign_link"
+}, {
+  "delay": 10,
+  "dfgedge": 18,
+  "op": "assign_delay"
+}, {
+  "adglink": 88,
+  "adgslot": 0,
+  "dfgedge": 18,
+  "op": "assign_link"
+}, {
+  "delay": 10,
+  "dfgedge": 18,
+  "op": "assign_delay"
+}, {
+  "adglink": 256,
+  "adgslot": 0,
+  "dfgedge": 19,
+  "op": "assign_link"
+}, {
+  "delay": 4,
+  "dfgedge": 19,
+  "op": "assign_delay"
+}, {
+  "adglink": 69,
+  "adgslot": 0,
+  "dfgedge": 19,
+  "op": "assign_link"
+}, {
+  "delay": 4,
+  "dfgedge": 19,
+  "op": "assign_delay"
+}, {
+  "adglink": 81,
+  "adgslot": 0,
+  "dfgedge": 19,
+  "op": "assign_link"
+}, {
+  "delay": 4,
+  "dfgedge": 19,
+  "op": "assign_delay"
+}, {
+  "adglink": 312,
+  "adgslot": 0,
+  "dfgedge": 20,
+  "op": "assign_link"
+}, {
+  "delay": 7,
+  "dfgedge": 20,
+  "op": "assign_delay"
+}, {
+  "adglink": 19,
+  "adgslot": 0,
+  "dfgedge": 20,
+  "op": "assign_link"
+}, {
+  "delay": 7,
+  "dfgedge": 20,
+  "op": "assign_delay"
+}, {
+  "adglink": 68,
+  "adgslot": 0,
+  "dfgedge": 20,
+  "op": "assign_link"
+}, {
+  "delay": 7,
+  "dfgedge": 20,
+  "op": "assign_delay"
+}, {
+  "adglink": 117,
+  "adgslot": 0,
+  "dfgedge": 20,
+  "op": "assign_link"
+}, {
+  "delay": 7,
+  "dfgedge": 20,
+  "op": "assign_delay"
+}, {
+  "adglink": 283,
+  "adgslot": 0,
+  "dfgedge": 21,
+  "op": "assign_link"
+}, {
+  "delay": 4,
+  "dfgedge": 21,
+  "op": "assign_delay"
+}, {
+  "adglink": 152,
+  "adgslot": 0,
+  "dfgedge": 21,
+  "op": "assign_link"
+}, {
+  "delay": 4,
+  "dfgedge": 21,
+  "op": "assign_delay"
+}, {
+  "adglink": 317,
+  "adgslot": 0,
+  "dfgedge": 22,
+  "op": "assign_link"
+}, {
+  "delay": 12,
+  "dfgedge": 22,
+  "op": "assign_delay"
+}, {
+  "adglink": 182,
+  "adgslot": 0,
+  "dfgedge": 22,
+  "op": "assign_link"
+}, {
+  "delay": 12,
+  "dfgedge": 22,
+  "op": "assign_delay"
+}, {
+  "adglink": 262,
+  "adgslot": 0,
+  "dfgedge": 23,
+  "op": "assign_link"
+}, {
+  "delay": 9,
+  "dfgedge": 23,
+  "op": "assign_delay"
+}, {
+  "adglink": 92,
+  "adgslot": 0,
+  "dfgedge": 23,
+  "op": "assign_link"
+}, {
+  "delay": 9,
+  "dfgedge": 23,
+  "op": "assign_delay"
+}, {
+  "adglink": 139,
+  "adgslot": 0,
+  "dfgedge": 23,
+  "op": "assign_link"
+}, {
+  "delay": 9,
+  "dfgedge": 23,
+  "op": "assign_delay"
+}, {
+  "adglink": 313,
+  "adgslot": 0,
+  "dfgedge": 24,
+  "op": "assign_link"
+}, {
+  "delay": 8,
+  "dfgedge": 24,
+  "op": "assign_delay"
+}, {
+  "adglink": 29,
+  "adgslot": 0,
+  "dfgedge": 24,
+  "op": "assign_link"
+}, {
+  "delay": 8,
+  "dfgedge": 24,
+  "op": "assign_delay"
+}, {
+  "adglink": 80,
+  "adgslot": 0,
+  "dfgedge": 24,
+  "op": "assign_link"
+}, {
+  "delay": 8,
+  "dfgedge": 24,
+  "op": "assign_delay"
+}, {
+  "adglink": 258,
+  "adgslot": 0,
+  "dfgedge": 25,
+  "op": "assign_link"
+}, {
+  "delay": 6,
+  "dfgedge": 25,
+  "op": "assign_delay"
+}, {
+  "adglink": 76,
+  "adgslot": 0,
+  "dfgedge": 25,
+  "op": "assign_link"
+}, {
+  "delay": 6,
+  "dfgedge": 25,
+  "op": "assign_delay"
+}, {
+  "adglink": 123,
+  "adgslot": 0,
+  "dfgedge": 25,
+  "op": "assign_link"
+}, {
+  "delay": 6,
+  "dfgedge": 25,
+  "op": "assign_delay"
+}, {
+  "adglink": 316,
+  "adgslot": 0,
+  "dfgedge": 26,
+  "op": "assign_link"
+}, {
+  "delay": 4,
+  "dfgedge": 26,
+  "op": "assign_delay"
+}, {
+  "adglink": 136,
+  "adgslot": 0,
+  "dfgedge": 26,
+  "op": "assign_link"
+}, {
+  "delay": 4,
+  "dfgedge": 26,
+  "op": "assign_delay"
+}, {
+  "adglink": 128,
+  "adgslot": 0,
+  "dfgedge": 26,
+  "op": "assign_link"
+}, {
+  "delay": 4,
+  "dfgedge": 26,
+  "op": "assign_delay"
+}, {
+  "adglink": 120,
+  "adgslot": 0,
+  "dfgedge": 26,
+  "op": "assign_link"
+}, {
+  "delay": 4,
+  "dfgedge": 26,
+  "op": "assign_delay"
+}, {
+  "adglink": 115,
+  "adgslot": 0,
+  "dfgedge": 26,
+  "op": "assign_link"
+}, {
+  "delay": 4,
+  "dfgedge": 26,
+  "op": "assign_delay"
+}, {
+  "adglink": 264,
+  "adgslot": 0,
+  "dfgedge": 27,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 27,
+  "op": "assign_delay"
+}, {
+  "adglink": 108,
+  "adgslot": 0,
+  "dfgedge": 27,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 27,
+  "op": "assign_delay"
+}, {
+  "adglink": 314,
+  "adgslot": 0,
+  "dfgedge": 28,
+  "op": "assign_link"
+}, {
+  "delay": 11,
+  "dfgedge": 28,
+  "op": "assign_delay"
+}, {
+  "adglink": 49,
+  "adgslot": 0,
+  "dfgedge": 28,
+  "op": "assign_link"
+}, {
+  "delay": 11,
+  "dfgedge": 28,
+  "op": "assign_delay"
+}, {
+  "adglink": 94,
+  "adgslot": 0,
+  "dfgedge": 28,
+  "op": "assign_link"
+}, {
+  "delay": 11,
+  "dfgedge": 28,
+  "op": "assign_delay"
+}, {
+  "adglink": 273,
+  "adgslot": 0,
+  "dfgedge": 29,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 29,
+  "op": "assign_delay"
+}, {
+  "adglink": 106,
+  "adgslot": 0,
+  "dfgedge": 29,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 29,
+  "op": "assign_delay"
+}, {
+  "adglink": 114,
+  "adgslot": 0,
+  "dfgedge": 29,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 29,
+  "op": "assign_delay"
+}, {
+  "adglink": 122,
+  "adgslot": 0,
+  "dfgedge": 29,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 29,
+  "op": "assign_delay"
+}, {
+  "adglink": 132,
+  "adgslot": 0,
+  "dfgedge": 29,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 29,
+  "op": "assign_delay"
+}, {
+  "adglink": 318,
+  "adgslot": 0,
+  "dfgedge": 30,
+  "op": "assign_link"
+}, {
+  "delay": 7,
+  "dfgedge": 30,
+  "op": "assign_delay"
+}, {
+  "adglink": 251,
+  "adgslot": 0,
+  "dfgedge": 30,
+  "op": "assign_link"
+}, {
+  "delay": 7,
+  "dfgedge": 30,
+  "op": "assign_delay"
+}, {
+  "adglink": 245,
+  "adgslot": 0,
+  "dfgedge": 30,
+  "op": "assign_link"
+}, {
+  "delay": 7,
+  "dfgedge": 30,
+  "op": "assign_delay"
+}, {
+  "adglink": 214,
+  "adgslot": 0,
+  "dfgedge": 30,
+  "op": "assign_link"
+}, {
+  "delay": 7,
+  "dfgedge": 30,
+  "op": "assign_delay"
+}, {
+  "adglink": 175,
+  "adgslot": 0,
+  "dfgedge": 30,
+  "op": "assign_link"
+}, {
+  "delay": 7,
+  "dfgedge": 30,
+  "op": "assign_delay"
+}, {
+  "adglink": 260,
+  "adgslot": 0,
+  "dfgedge": 31,
+  "op": "assign_link"
+}, {
+  "delay": 7,
+  "dfgedge": 31,
+  "op": "assign_delay"
+}, {
+  "adglink": 84,
+  "adgslot": 0,
+  "dfgedge": 31,
+  "op": "assign_link"
+}, {
+  "delay": 7,
+  "dfgedge": 31,
+  "op": "assign_delay"
+}, {
+  "adglink": 133,
+  "adgslot": 0,
+  "dfgedge": 31,
+  "op": "assign_link"
+}, {
+  "delay": 7,
+  "dfgedge": 31,
+  "op": "assign_delay"
+}, {
+  "adglink": 253,
+  "adgslot": 0,
+  "dfgedge": 32,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 32,
+  "op": "assign_delay"
+}, {
+  "adglink": 10,
+  "adgslot": 0,
+  "dfgedge": 32,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 32,
+  "op": "assign_delay"
+}, {
+  "adglink": 27,
+  "adgslot": 0,
+  "dfgedge": 32,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 32,
+  "op": "assign_delay"
+}, {
+  "adglink": 270,
+  "adgslot": 0,
+  "dfgedge": 33,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 33,
+  "op": "assign_delay"
+}, {
+  "adglink": 130,
+  "adgslot": 0,
+  "dfgedge": 33,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 33,
+  "op": "assign_delay"
+}, {
+  "adglink": 140,
+  "adgslot": 0,
+  "dfgedge": 33,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 33,
+  "op": "assign_delay"
+}, {
+  "adglink": 275,
+  "adgslot": 0,
+  "dfgedge": 34,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 34,
+  "op": "assign_delay"
+}, {
+  "adglink": 111,
+  "adgslot": 0,
+  "dfgedge": 34,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 34,
+  "op": "assign_delay"
+}, {
+  "adglink": 66,
+  "adgslot": 0,
+  "dfgedge": 34,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 34,
+  "op": "assign_delay"
+}, {
+  "adglink": 20,
+  "adgslot": 0,
+  "dfgedge": 34,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 34,
+  "op": "assign_delay"
+}, {
+  "adglink": 39,
+  "adgslot": 0,
+  "dfgedge": 34,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 34,
+  "op": "assign_delay"
+}, {
+  "adglink": 282,
+  "adgslot": 0,
+  "dfgedge": 35,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 35,
+  "op": "assign_delay"
+}, {
+  "adglink": 184,
+  "adgslot": 0,
+  "dfgedge": 35,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 35,
+  "op": "assign_delay"
+}, {
+  "adglink": 267,
+  "adgslot": 0,
+  "dfgedge": 36,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 36,
+  "op": "assign_delay"
+}, {
+  "adglink": 77,
+  "adgslot": 0,
+  "dfgedge": 36,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 36,
+  "op": "assign_delay"
+}, {
+  "adglink": 82,
+  "adgslot": 0,
+  "dfgedge": 36,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 36,
+  "op": "assign_delay"
+}, {
+  "adglink": 42,
+  "adgslot": 0,
+  "dfgedge": 36,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 36,
+  "op": "assign_delay"
+}, {
+  "adglink": 52,
+  "adgslot": 0,
+  "dfgedge": 36,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 36,
+  "op": "assign_delay"
+}, {
+  "adglink": 266,
+  "adgslot": 0,
+  "dfgedge": 37,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 37,
+  "op": "assign_delay"
+}, {
+  "adglink": 113,
+  "adgslot": 0,
+  "dfgedge": 37,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 37,
+  "op": "assign_delay"
+}, {
+  "adglink": 158,
+  "adgslot": 0,
+  "dfgedge": 37,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 37,
+  "op": "assign_delay"
+}, {
+  "adglink": 166,
+  "adgslot": 0,
+  "dfgedge": 37,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 37,
+  "op": "assign_delay"
+}, {
+  "adglink": 174,
+  "adgslot": 0,
+  "dfgedge": 37,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 37,
+  "op": "assign_delay"
+}, {
+  "adglink": 179,
+  "adgslot": 0,
+  "dfgedge": 37,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 37,
+  "op": "assign_delay"
+}, {
+  "adglink": 141,
+  "adgslot": 0,
+  "dfgedge": 37,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 37,
+  "op": "assign_delay"
+}, {
+  "adglink": 271,
+  "adgslot": 0,
+  "dfgedge": 38,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 38,
+  "op": "assign_delay"
+}, {
+  "adglink": 97,
+  "adgslot": 0,
+  "dfgedge": 38,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 38,
+  "op": "assign_delay"
+}, {
+  "adglink": 279,
+  "adgslot": 0,
+  "dfgedge": 39,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 39,
+  "op": "assign_delay"
+}, {
+  "adglink": 127,
+  "adgslot": 0,
+  "dfgedge": 39,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 39,
+  "op": "assign_delay"
+}, {
+  "adglink": 85,
+  "adgslot": 0,
+  "dfgedge": 39,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 39,
+  "op": "assign_delay"
+}, {
+  "adglink": 96,
+  "adgslot": 0,
+  "dfgedge": 39,
+  "op": "assign_link"
+}, {
+  "delay": 0,
+  "dfgedge": 39,
+  "op": "assign_delay"
+}]

@@ -1,0 +1,45 @@
+#pragma group frequency 5119
+#pragma group unroll 8
+# From Inst: [0x56102d37af30] MemPort (0)  %42 = load i64, i64* %41, align 8, !tbaa !6
+#pragma cmd=1
+#pragma repeat=0
+Input64: sub0_v0_[8]
+# From Inst: [0x56102d37b1a0] MemPort (0)  %45 = load i64, i64* %44, align 8, !tbaa !6
+#pragma cmd=1
+#pragma repeat=0
+Input64: sub0_v1_[8]
+# From Inst: [0x56102d37b040] MemPort (0)  %39 = load i64, i64* %38, align 8, !tbaa !6
+#pragma cmd=1
+#pragma repeat=0
+Input64: sub0_v2_[8]
+# [0x56102d377fb0] ComputeBody (0)  %46 = shl i64 %42, 1
+sub0_v3_0 = Shl64(sub0_v0_0, 1)
+sub0_v3_1 = Shl64(sub0_v0_1, 1)
+sub0_v3_2 = Shl64(sub0_v0_2, 1)
+sub0_v3_3 = Shl64(sub0_v0_3, 1)
+sub0_v3_4 = Shl64(sub0_v0_4, 1)
+sub0_v3_5 = Shl64(sub0_v0_5, 1)
+sub0_v3_6 = Shl64(sub0_v0_6, 1)
+sub0_v3_7 = Shl64(sub0_v0_7, 1)
+# [0x56102d37b0f0] ComputeBody (0)  %47 = add i64 %46, %39
+sub0_v4_0 = Add64(sub0_v3_0, sub0_v2_0)
+sub0_v4_1 = Add64(sub0_v3_1, sub0_v2_1)
+sub0_v4_2 = Add64(sub0_v3_2, sub0_v2_2)
+sub0_v4_3 = Add64(sub0_v3_3, sub0_v2_3)
+sub0_v4_4 = Add64(sub0_v3_4, sub0_v2_4)
+sub0_v4_5 = Add64(sub0_v3_5, sub0_v2_5)
+sub0_v4_6 = Add64(sub0_v3_6, sub0_v2_6)
+sub0_v4_7 = Add64(sub0_v3_7, sub0_v2_7)
+# [0x56102d37b250] ComputeBody (0)  %48 = add nsw i64 %47, %45
+sub0_v5_0 = Add64(sub0_v4_0, sub0_v1_0)
+sub0_v5_1 = Add64(sub0_v4_1, sub0_v1_1)
+sub0_v5_2 = Add64(sub0_v4_2, sub0_v1_2)
+sub0_v5_3 = Add64(sub0_v4_3, sub0_v1_3)
+sub0_v5_4 = Add64(sub0_v4_4, sub0_v1_4)
+sub0_v5_5 = Add64(sub0_v4_5, sub0_v1_5)
+sub0_v5_6 = Add64(sub0_v4_6, sub0_v1_6)
+sub0_v5_7 = Add64(sub0_v4_7, sub0_v1_7)
+# From Inst: [0x56102d37b2c0] PortMem (0)  store i64 %48, i64* %49, align 8, !tbaa !6
+#pragma cmd=1
+#pragma repeat=0
+Output64: sub0_v5_[8]
