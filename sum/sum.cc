@@ -29,7 +29,7 @@ ASPLOS 1991
 #else 
   #define C 3
 #endif
-#define N row_size*col_size
+#define N row_size*col_size*C
 #define NN N*N
 #define block_size 8
 #define NUMOFBLOCKS N/block_size/block_size
@@ -43,28 +43,21 @@ ASPLOS 1991
 
 #include <sys/time.h>
 
-//static __inline__ uint64_t rdtsc(void) {
-//  struct timeval tv;
-//  gettimeofday(&tv, NULL);
-//  return (((uint64_t)tv.tv_sec) * 1000000 + ((uint64_t)tv.tv_usec));
-//}
-//
-//static uint64_t ticks;
-//void sumCpu(const TYPE* image1, int imageRows, int imageCols, int imageStep, int imageChannels, TYPE dest1){
-//
-//	int64_t jj, i, j, k;
-//	TYPE temp1, temp2;
-//	int64_t rows = imageRows; 
-//	int64_t cols = imageCols; 
-//	int64_t channels = imageChannels;
-//	//GRAY
-//            for (i=0; i<rows; ++i){
-//	      for (j=0; j<cols; ++j){
-//                dest1 += image1[i*cols + j];
-//	      }
-//	    }
-//}
-//
+void sumCpu(const TYPE* image1, int imageRows, int imageCols, int imageStep, int imageChannels, TYPE dest1){
+
+	int64_t jj, i, j, k;
+	TYPE temp1, temp2;
+	int64_t rows = imageRows; 
+	int64_t cols = imageCols; 
+	int64_t channels = imageChannels;
+	//GRAY
+            for (i=0; i<rows; ++i){
+	      for (j=0; j<cols; ++j){
+                dest1 += image1[i*cols + j];
+	      }
+	    }
+}
+
 
 void sum(TYPE src[N], TYPE dest){
 
@@ -79,7 +72,7 @@ void sum(TYPE src[N], TYPE dest){
 	//GRAY
           #pragma ss stream nonblock 
             for (i=0; i<rows; ++i){
-             #pragma ss dfg dedicated
+                #pragma ss dfg dedicated
 	        for (j=0; j<cols; ++j){
                   acc +=  src[i*cols + j]; 
 	      }
@@ -87,24 +80,21 @@ void sum(TYPE src[N], TYPE dest){
     }
 }
 
-TYPE dest;
-TYPE dest1;
+TYPE dest=0;
+TYPE dest1=0;
 
 int main() {
 
-  //sumCpu(image, row_size, col_size, col_size, C, dest1);
+  sumCpu(image, row_size, col_size, col_size, C, dest1);
 
   //cache warmup
   for(int i=0;i<CACHE_WARMUP;++i)
-        //sum(image, row_size, col_size, col_size, C, dest, row_size, col_size, col_size, C);
         sum(image, dest);
 
+  dest = 0;
 
   begin_roi();
-  //ticks = rdtsc();
-  //sum(image, row_size, col_size, col_size, C, dest, row_size, col_size, col_size, C);
   sum(image, dest);
-  //std::cout << "Cycles: " << rdtsc()-ticks << std::endl;
   end_roi();
   sb_stats();
 

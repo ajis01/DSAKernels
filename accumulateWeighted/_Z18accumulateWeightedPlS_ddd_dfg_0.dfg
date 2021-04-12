@@ -1,2 +1,0 @@
-#pragma group frequency 8191
-#pragma group unroll 8

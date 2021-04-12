@@ -1,4 +1,0 @@
-Digraph G { 
-newrank=true;
- 	{ rank = same; 	{ rank = same; }}
-}
